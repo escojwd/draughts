@@ -1,0 +1,34 @@
+body {
+    text-align: center
+}
+
+img {
+    width: 50px;
+}
+
+.game-table {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 800px;
+    background-color: #ebecd0;
+    margin-top: 50px;
+    border: 1px solid darkgray;
+    box-sizing: border-box;
+}
+
+.game-table div {
+    width: 12.5%;
+    height: 12.5%;
+    border: 0.1px solid darkgrey;
+    box-sizing: border-box;
+}
+
+.grey-even:nth-child(even) {
+    background-color:  #ba7a3a;
+}
+
+.grey-odd:nth-child(odd) {
+    background-color: #ba7a3a;
+}
+
